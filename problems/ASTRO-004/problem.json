@@ -1,0 +1,27 @@
+{
+  "id": "ASTRO-004",
+  "domain": "astronomy",
+  "title": "FRB 起源與selection bias",
+  "status": "OPEN",
+  "priority": "B",
+  "checked_on": "2026-09-28",
+  "statement": "區分FRB source populations與production mechanisms，同時正確模型化survey selection、repeat detection與host association bias。",
+  "known_result": "2024 Nature工作直接指出selection bias可妨礙FRB source discovery；magnetars是leading candidates但物理起源仍未完全定。",
+  "open_gap": "重複/非重複population、luminosity function、host/environment selection與多機制混合。",
+  "first_task": "構造toy FRB population + survey threshold，展示忽略selection如何偏移host/rate inference。",
+  "evaluator": "simulation-based recovery、coverage、posterior predictive。",
+  "validation_limits": "magnetar association不等於所有FRB同一機制。",
+  "completion_criterion": "在多survey holdout下同時解釋rates/hosts/repetition並提供可檢驗機制預測。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；每輪重查最新觀測、catalog與解釋。OPEN不是全網無解證明。",
+  "screening_queries": [
+    "FRB sources selection bias origin"
+  ],
+  "sources": [
+    {
+      "title": "Selection bias obfuscates the discovery of fast radio burst sources",
+      "url": "https://www.nature.com/articles/s41586-024-08065-w",
+      "kind": "primary",
+      "supports": "FRB source inference的selection bias"
+    }
+  ]
+}

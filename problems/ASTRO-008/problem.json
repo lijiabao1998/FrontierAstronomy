@@ -1,0 +1,27 @@
+{
+  "id": "ASTRO-008",
+  "domain": "astronomy",
+  "title": "暗物質小尺度substructure與baryonic degeneracy",
+  "status": "OPEN",
+  "priority": "B",
+  "checked_on": "2026-09-28",
+  "statement": "由stellar streams、strong lensing、dwarf galaxies等probe推斷subhalo mass function，同時分離baryonic feedback。",
+  "known_result": "2026外星系globular-cluster stream展示stellar streams可探測halo/substructure；small-scale CDM alternatives仍與baryonic effects退化。",
+  "open_gap": "stream perturbations、baryonic perturbers、host potential與selection。",
+  "first_task": "用公開toy stream注入subhalo/baryonic perturber，測recoverability與false positives。",
+  "evaluator": "injection-recovery、mass-function bias、model comparison。",
+  "validation_limits": "單一stream gap不是dark subhalo證明；host model error可假造signal。",
+  "completion_criterion": "多probe/多stream下對同一substructure population有一致constraint。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；每輪重查最新觀測、catalog與解釋。OPEN不是全網無解證明。",
+  "screening_queries": [
+    "dark matter substructure stellar streams 2026"
+  ],
+  "sources": [
+    {
+      "title": "Evidence for the first globular cluster stellar stream beyond the Milky Way",
+      "url": "https://www.nature.com/articles/s41586-026-10878-w",
+      "kind": "primary",
+      "supports": "stellar streams作為dark-matter halo/substructure probe"
+    }
+  ]
+}

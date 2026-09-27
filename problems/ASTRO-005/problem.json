@@ -1,0 +1,27 @@
+{
+  "id": "ASTRO-005",
+  "domain": "astronomy",
+  "title": "FRB作為宇宙重子與matter clustering probe",
+  "status": "OPEN",
+  "priority": "B",
+  "checked_on": "2026-09-28",
+  "statement": "用FRB dispersion measures約束baryon distribution與feedback對matter power spectrum的影響，控制host/IGM decomposition。",
+  "known_result": "2026 Nature Astronomy以114 FRBs得到matter clustering suppression與halo gas fraction constraints。",
+  "open_gap": "host DM、electron distribution、feedback model與sample size造成的systematics。",
+  "first_task": "重現簡化DM-z relation與host nuisance sensitivity；做mock catalog coverage test。",
+  "evaluator": "posterior coverage、cross-probe consistency、host prior sensitivity。",
+  "validation_limits": "FRB DM不是純IGM觀測；feedback inference依模型。",
+  "completion_criterion": "在新FRB樣本/不同prior下保持與其他baryon probes一致且縮小systematics。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；每輪重查最新觀測、catalog與解釋。OPEN不是全網無解證明。",
+  "screening_queries": [
+    "fast radio bursts matter clustering baryons 2026"
+  ],
+  "sources": [
+    {
+      "title": "Signatures of suppressed matter clustering revealed by fast radio bursts",
+      "url": "https://www.nature.com/articles/s41550-026-02957-9",
+      "kind": "primary",
+      "supports": "FRB對feedback-regulated matter clustering的近期約束"
+    }
+  ]
+}

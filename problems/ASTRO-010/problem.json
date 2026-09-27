@@ -1,0 +1,27 @@
+{
+  "id": "ASTRO-010",
+  "domain": "astronomy",
+  "title": "多信使瞬變的跨儀器推論與新奇偵測",
+  "status": "OPEN",
+  "priority": "B",
+  "checked_on": "2026-09-28",
+  "statement": "在GW、neutrino、gamma、optical/radio streams中即時關聯罕見事件，控制false coincidences並發現真正novel transients。",
+  "known_result": "2026 Nature Astronomy指出multimessenger astronomy正進入data-surge時代，instrument noise、simulation approximation與physical novelty需被區分。",
+  "open_gap": "heterogeneous latency、selection functions、chance coincidence與unknown-class detection。",
+  "first_task": "做synthetic two-messenger alerts，固定time/sky uncertainty，校準association false alarm與OOD score。",
+  "evaluator": "false association rate、detection power、latency、calibration。",
+  "validation_limits": "高OOD不等於新物理；多重掃描須trial correction。",
+  "completion_criterion": "在held-out simulated/archival events上有校準false alarm並能重現known associations，再談novelty。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；每輪重查最新觀測、catalog與解釋。OPEN不是全網無解證明。",
+  "screening_queries": [
+    "multimessenger astronomy frontier AI 2026"
+  ],
+  "sources": [
+    {
+      "title": "The multimessenger Universe as a training ground for frontier AI",
+      "url": "https://www.nature.com/articles/s41550-026-02910-w",
+      "kind": "primary",
+      "supports": "多信使資料量、noise/simulation/novelty辨識挑戰"
+    }
+  ]
+}

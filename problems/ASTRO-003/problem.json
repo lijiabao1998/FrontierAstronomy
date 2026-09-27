@@ -1,0 +1,27 @@
+{
+  "id": "ASTRO-003",
+  "domain": "astronomy",
+  "title": "Little Red Dots 的物理本質",
+  "status": "OPEN",
+  "priority": "A",
+  "checked_on": "2026-09-28",
+  "statement": "判定JWST Little Red Dots中AGN、stellar populations、obscuration與特殊nuclear environments的相對角色，找出可區分觀測。",
+  "known_result": "2026 Perspective認為LRDs多半與AGN相關，但其enigmatic properties仍挑戰canonical AGN paradigm並有多種形成解釋。",
+  "open_gap": "spectral decomposition、selection、obscuration與host contamination。",
+  "first_task": "重現一個公開LRD sample的color/redshift/line-width分布，列三個競爭模型的prediction table。",
+  "evaluator": "posterior predictive checks、held-out spectral features、selection completeness。",
+  "validation_limits": "一組SED fit不能定性本質；sample selection可塑造population。",
+  "completion_criterion": "至少一個預註冊觀測能明確淘汰競爭模型或大幅收縮posterior。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；每輪重查最新觀測、catalog與解釋。OPEN不是全網無解證明。",
+  "screening_queries": [
+    "Little Red Dots physical nature 2026"
+  ],
+  "sources": [
+    {
+      "title": "A critical evaluation of the physical nature of the little red dots",
+      "url": "https://www.nature.com/articles/s41550-026-02934-2",
+      "kind": "primary",
+      "supports": "LRD競爭解釋與未解觀測問題"
+    }
+  ]
+}

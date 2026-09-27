@@ -1,0 +1,27 @@
+{
+  "id": "ASTRO-009",
+  "domain": "astronomy",
+  "title": "宇宙全局拓撲的可觀測約束",
+  "status": "OPEN",
+  "priority": "C",
+  "checked_on": "2026-09-28",
+  "statement": "在CMB/LSS資料下約束可能的non-trivial spatial topology，處理orientation、fundamental-domain size與look-elsewhere。",
+  "known_result": "2026 Nature Astronomy review總結宇宙拓撲目前限制與未來資料前景。",
+  "open_gap": "巨大的topology/orientation search、cosmic variance與mask/systematics。",
+  "first_task": "用簡化2D sphere/toy torus建立matched-pattern search，驗trial correction。",
+  "evaluator": "false-positive rate、coverage、orientation search calibration。",
+  "validation_limits": "沒找到pattern不是所有topology被排除；toy model不等於真CMB。",
+  "completion_criterion": "對指定topology family給正確coverage的lower limits或 detection，並跨datasets核實。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；每輪重查最新觀測、catalog與解釋。OPEN不是全網無解證明。",
+  "screening_queries": [
+    "topology of the Universe 2026 review"
+  ],
+  "sources": [
+    {
+      "title": "The topology of the Universe",
+      "url": "https://www.nature.com/articles/s41550-026-02930-6",
+      "kind": "primary",
+      "supports": "宇宙拓撲觀測限制與open directions"
+    }
+  ]
+}

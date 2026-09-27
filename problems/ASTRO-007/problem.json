@@ -1,0 +1,27 @@
+{
+  "id": "ASTRO-007",
+  "domain": "astronomy",
+  "title": "黑洞pair-instability mass gap與形成通道",
+  "status": "OPEN",
+  "priority": "B",
+  "checked_on": "2026-09-28",
+  "statement": "從GW population中分離stellar evolution、hierarchical mergers與selection，量pair-instability gap edges及來源。",
+  "known_result": "2026 Nature Astronomy以GWTC-4推得gap edge並發現跨gap的high-spin population與hierarchical mergers一致。",
+  "open_gap": "stellar/nuclear physics systematics、population mixture、detector selection。",
+  "first_task": "做toy hierarchical population，重現selection-corrected mass/spin likelihood概念。",
+  "evaluator": "posterior recovery、mixture identifiability、prior/selection sensitivity。",
+  "validation_limits": "population fit一致不代表形成通道唯一。",
+  "completion_criterion": "跨catalog update仍有穩定gap/mixture結論並能預測新events。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；每輪重查最新觀測、catalog與解釋。OPEN不是全網無解證明。",
+  "screening_queries": [
+    "gravitational wave pair instability mass gap 2026"
+  ],
+  "sources": [
+    {
+      "title": "Gravitational-wave constraints on the pair-instability mass gap and nuclear burning in massive stars",
+      "url": "https://www.nature.com/articles/s41550-026-02847-0",
+      "kind": "primary",
+      "supports": "GW mass-gap與formation-channel inference"
+    }
+  ]
+}

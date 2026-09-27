@@ -1,0 +1,27 @@
+{
+  "id": "ASTRO-006",
+  "domain": "astronomy",
+  "title": "系外行星氣體與biosignature的可靠辨識",
+  "status": "OPEN",
+  "priority": "A",
+  "checked_on": "2026-09-28",
+  "statement": "在低S/N光譜、巨大的分子model space與abiotic false positives下，建立可重現的氣體/biosignature claim標準。",
+  "known_result": "2025/26工作顯示K2-18b等trace-gas claim對model space高度敏感；2026 editorial強調abiotic baseline、false positives/negatives。",
+  "open_gap": "line-list uncertainty、clouds、retrieval model selection與abiotic chemistry。",
+  "first_task": "用公開synthetic spectrum重現limited-model vs expanded-model gas detection差異。",
+  "evaluator": "Bayes factor robustness、posterior predictive、injection-recovery、multiple-model sensitivity。",
+  "validation_limits": "model preference不等於特定gas存在；gas存在也不等於生命。",
+  "completion_criterion": "在預註冊model family與independent wavelength/instrument資料上維持可重現gas identification，biosignature另需abiotic baseline。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；每輪重查最新觀測、catalog與解釋。OPEN不是全網無解證明。",
+  "screening_queries": [
+    "exoplanet gas detection biosignature model space 2026"
+  ],
+  "sources": [
+    {
+      "title": "Challenges in the detection of gases in exoplanet atmospheres",
+      "url": "https://www.nature.com/articles/s41550-025-02730-4",
+      "kind": "primary",
+      "supports": "gas detection對model choice的敏感性"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ASTRO-002",
+  "domain": "astronomy",
+  "title": "第一十億年超大質量黑洞種子與成長",
+  "status": "OPEN",
+  "priority": "A",
+  "checked_on": "2026-09-28",
+  "statement": "區分light/heavy seeds、超Eddington accretion、merger等路徑，解釋JWST時代早期黑洞mass/host關係。",
+  "known_result": "2026 review總結JWST早期active black holes的異常properties、mass measurement與host relation open questions。",
+  "open_gap": "seed mass、duty cycle、obscuration、virial mass systematics與selection。",
+  "first_task": "從公開review/sample摘一小表，重現mass-host圖及measurement uncertainty；比較兩個toy growth tracks。",
+  "evaluator": "forward selection model、mass uncertainty、host scaling posterior predictive。",
+  "validation_limits": "virial mass/systematic很大；看到massive BH不唯一指定seed。",
+  "completion_criterion": "競爭seed/growth模型對未見observable給可區分預測並被新樣本測試。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；每輪重查最新觀測、catalog與解釋。OPEN不是全網無解證明。",
+  "screening_queries": [
+    "massive black holes first billion years JWST 2026"
+  ],
+  "sources": [
+    {
+      "title": "Massive black holes in the first billion years with JWST",
+      "url": "https://www.nature.com/articles/s41550-026-02966-8",
+      "kind": "primary",
+      "supports": "早期黑洞觀測現況與open questions"
+    }
+  ]
+}

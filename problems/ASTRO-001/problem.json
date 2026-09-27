@@ -1,0 +1,27 @@
+{
+  "id": "ASTRO-001",
+  "domain": "astronomy",
+  "title": "早期星系形成與JWST/ALMA一致模型",
+  "status": "OPEN",
+  "priority": "A",
+  "checked_on": "2026-09-28",
+  "statement": "建立可同時解釋第一十億年星系的stellar mass、gas/dust、kinematics、morphology與AGN fraction的模型，並能預測新觀測。",
+  "known_result": "2025/26 JWST+ALMA review指出早期星系資料快速增加，同時star formation、ISM、AGN與model limitations仍有多個open questions。",
+  "open_gap": "baryonic feedback、dust/SED inference、selection與simulation subgrid physics的degeneracy。",
+  "first_task": "固定一個公開高z sample與兩個observable，重現paper-level summary，測不同SED/selection assumptions。",
+  "evaluator": "posterior predictive、held-out observable、selection-aware likelihood。",
+  "validation_limits": "stellar mass等量本身model-dependent；不能把模擬匹配當唯一形成史。",
+  "completion_criterion": "跨至少一個新/holdout observable保留預測力並能區分競爭模型。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；每輪重查最新觀測、catalog與解釋。OPEN不是全網無解證明。",
+  "screening_queries": [
+    "early Universe JWST ALMA open questions 2026"
+  ],
+  "sources": [
+    {
+      "title": "The early Universe with JWST and ALMA",
+      "url": "https://www.nature.com/articles/s41550-025-02726-0",
+      "kind": "primary",
+      "supports": "早期星系觀測突破、open questions與limitations"
+    }
+  ]
+}
