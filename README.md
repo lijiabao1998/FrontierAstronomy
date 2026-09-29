@@ -17,4 +17,4 @@
 | ASTRO-009 | 宇宙全局拓撲的可觀測約束 | C |
 | ASTRO-010 | 多信使瞬變的跨儀器推論與新奇偵測 | B |
 
-每輪按治理 f40beb161b6c87201d8082ecbc29c7e0b3eaa402 fresh search。catalog/version/selection function 是正式研究物件；新資料release可直接改變問題狀態。
+每輪按治理 9c3ae2dbaa1c814f3ef451c041dedfe3b77d926f fresh search。catalog/version/selection function 是正式研究物件；新資料release可直接改變問題狀態。
